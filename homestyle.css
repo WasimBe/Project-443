@@ -1,0 +1,33 @@
+
+body{
+    background: linear-gradient(to left, rgb(205, 82, 6, 0.751), rgb(242, 217, 116, 0.704), rgb(29, 108, 254, 0.734));
+margin: 0px;
+}
+
+
+.navbar ul{
+list-style-type: none;
+background-color: black;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: black;
+
+}
+.navbar li{
+    float: left;
+
+}

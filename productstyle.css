@@ -1,0 +1,100 @@
+body{
+    background: linear-gradient(to left, rgb(205, 82, 6, 0.751), rgb(242, 217, 116, 0.704), rgb(29, 108, 254, 0.734));
+margin: 0px;
+}
+
+
+.navbar ul{
+list-style-type: none;
+background-color: black;
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: black;
+
+}
+.navbar li{
+    float: left;
+
+}
+
+.draadloze-fm-zender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    justify-content: space-around;
+border: 10px solid black;
+border-radius: 30px;
+margin: 34px;
+}
+.draadloze-fm-zender #titel{
+    font-size: 30px;
+    width: 120;
+}
+.draadloze-fm-zender button{
+    border-radius: 30px;
+    border: none;
+    background: transparent;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+.draadloze-fm-zender:hover{
+    background-color: grey;
+    border: none;
+}
+.Knop a{
+    text-decoration: none;
+    color: black;
+}
+.Elektrische-lichtschakelaar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 10px solid black;
+    border-radius: 30px;
+    margin-left: 34px;
+    width: max-content;
+}
+.Elektrische-lichtschakelaar #titel{
+    font-size: 30;
+    width: 120;
+}
+.Elektrische-lichtschakelaar button{
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+.Elektrische-lichtschakelaar:hover{
+    background-color: grey;
+    border: none;
+}
+.Knop a{
+    text-decoration: none;
+    color: black;
+}
+.eersterij{
+    margin-top: 34px;
+}
+#titel{
+    text-decoration: none;
+    color: black;
+}
